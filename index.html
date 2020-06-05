@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <!-- font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <title>Resume</title>
+  </head>
+  <body>
+    <script
+      src="https://kit.fontawesome.com/145c26c1ad.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+
+    <header>
+      <nav id="navbar-example2" class="navbar navbar-light bg-dark fixed-top">
+        <a class="navbar-brand text-light" href="#">About Me</a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#Interest">Interest</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#Skills">Skills</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle text-light"
+              data-toggle="dropdown"
+              href="#"
+              role="button"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >More</a
+            >
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#Languages">Languages</a>
+              <a class="dropdown-item" href="#Education">Education</a>
+              <!-- <div role="separator" class="dropdown-divider"></div> -->
+              <a class="dropdown-item" href="#Experience">Experience</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <!-- <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+        <h4 id="fat">@fat</h4>
+        <p>...</p>
+        <h4 id="mdo">@mdo</h4>
+        <p>...</p>
+        <h4 id="one">one</h4>
+        <p>...</p>
+        <h4 id="two">two</h4>
+        <p>...</p>
+        <h4 id="three">three</h4>
+        <p>...</p>
+      </div> -->
+    </header>
+
+    <!-- <header>
+      <div class="container">
+        <div class="text-white bg-danger">
+          <div><img src="" alt="" /></div>
+          <h1>Kanin</h1>
+          <section>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem
+              dolores iusto magnam tempora aliquam fugiat ex, optio, sit quae
+              autem minima nam atque culpa quam molestias doloribus. Hic, nobis
+              reiciendis.
+            </p>
+            <a href=""><i class="fab fa-facebook text-white"></i></a>
+            <a href=""><i class="fab fa-twitter text-white"></i></a>
+            <a href=""><i class="fab fa-github-alt text-white"></i></a>
+            <a href=""><i class="fab fa-instagram text-white"></i></a>
+            <a href=""><i class="fab fa-linkedin-in text-white"></i></a>
+          </section>
+        </div>
+      </div>
+    </header> -->
+
+    <main>
+      <!-- carousel -->
+      <div id="myCarousel" class="carousel slide mt-5" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <svg
+              class="bd-placeholder-img"
+              width="100%"
+              height="300px"
+              xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+              role="img"
+            >
+              <rect width="100%" height="100%" fill="#777" />
+            </svg>
+            <div class="container">
+              <div class="carousel-caption text-left d-flex flex-row">
+                <img
+                  width="20%"
+                  src="https://s3.cointelegraph.com/storage/uploads/view/bad02e8b57a64d349aa5eec318298b4b.png"
+                  alt="Spirit Animal"
+                  class="img-thumbnail rounded-circle"
+                />
+                <div class="bd-highlight pl-5">
+                  <h1 class="">Kanin</h1>
+                  <p class="">
+                    Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+                    Donec id elit non mi porta gravida at eget metus. Nullam id
+                    dolor id nibh ultricies vehicula ut id elit.
+                  </p>
+                  <p>
+                    <!-- <a class="btn btn-lg btn-primary" href="#" role="button"
+                    >Learn More</a
+                  > -->
+                    <button
+                      type="button"
+                      class="btn btn-lg btn-danger"
+                      data-toggle="popover"
+                      title="Click Bait"
+                      data-trigger="focus"
+                      data-content="There's nothing here to learn move along"
+                    >
+                      Don't Click
+                    </button>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <svg
+              class="bd-placeholder-img"
+              width="100%"
+              height="300px"
+              xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+              role="img"
+            >
+              <rect width="100%" height="100%" fill="#777" />
+            </svg>
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Contact Info</h1>
+                <p>
+                  Email:kanin.srij@gmail.com
+                </p>
+                <p>Tel: +66-87-999-1244</p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#" role="button"
+                    >Learn more</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <svg
+              class="bd-placeholder-img"
+              width="100%"
+              height="300px"
+              xmlns="http://www.w3.org/2000/svg"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+              role="img"
+            >
+              <rect width="100%" height="100%" fill="#777" />
+            </svg>
+            <div class="container">
+              <div class="carousel-caption text-right">
+                <h1>Location</h1>
+                <p>
+                  1077/245 Pahonyothin Rd. Samsennai Payathai Bangkok 10400
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#" role="button"
+                    >Learn Something</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#myCarousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#myCarousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <!-- data -->
+
+      <div
+        data-spy="scroll"
+        data-target="#navbar-example2"
+        data-offset="0"
+        class="row row-cols-1 row-cols-md-2 container-fluid"
+        id="mainbody"
+      >
+        <!-- Interest -->
+        <div class="col p-5">
+          <h3 id="Interest">Interest</h3>
+          <div class="row bg-light d-flex align-items-center">
+            <div class="col-4">
+              <div class="list-group" id="list-tab" role="tablist">
+                <a
+                  class="list-group-item list-group-item-action active"
+                  id="list-home-list"
+                  data-toggle="list"
+                  href="#list-home"
+                  role="tab"
+                  aria-controls="home"
+                  >Video games</a
+                >
+                <a
+                  class="list-group-item list-group-item-action"
+                  id="list-profile-list"
+                  data-toggle="list"
+                  href="#list-profile"
+                  role="tab"
+                  aria-controls="profile"
+                  >Sleeping</a
+                >
+                <a
+                  class="list-group-item list-group-item-action"
+                  id="list-messages-list"
+                  data-toggle="list"
+                  href="#list-messages"
+                  role="tab"
+                  aria-controls="messages"
+                  >Travelling</a
+                >
+                <a
+                  class="list-group-item list-group-item-action"
+                  id="list-settings-list"
+                  data-toggle="list"
+                  href="#list-settings"
+                  role="tab"
+                  aria-controls="settings"
+                  >Eatting</a
+                >
+              </div>
+            </div>
+            <div class="col-8">
+              <div class="tab-content" id="nav-tabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="list-home"
+                  role="tabpanel"
+                  aria-labelledby="list-home-list"
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Impedit beatae molestiae facilis voluptate cupiditate,
+                  voluptatibus ut, totam earum porro quod obcaecati eum nulla
+                  eligendi deserunt. Molestiae provident ipsum deleniti
+                  expedita?
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="list-profile"
+                  role="tabpanel"
+                  aria-labelledby="list-profile-list"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Assumenda, hic aliquid sed delectus eligendi vero pariatur
+                  quod perferendis itaque molestiae labore dolor enim saepe
+                  dicta amet, beatae explicabo vel eos!
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="list-messages"
+                  role="tabpanel"
+                  aria-labelledby="list-messages-list"
+                >
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Assumenda, sint. Reprehenderit, ratione voluptatibus qui quae
+                  consectetur facere illo possimus tempore. Dignissimos dolores
+                  excepturi nisi sint rem accusantium aliquid recusandae iusto!
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="list-settings"
+                  role="tabpanel"
+                  aria-labelledby="list-settings-list"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                  perspiciatis aliquam eos iste alias temporibus, sed quisquam,
+                  corporis, minima doloremque atque. Perferendis, sed voluptate
+                  laudantium tempore cumque quibusdam unde consectetur.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Skill -->
+        <div class="col p-5">
+          <h3 id="Skills">Skills</h3>
+          <div class="skills">
+            <article>
+              <div class="column">
+                <h4>Coding</h4>
+                <ul>
+                  <li>Python</li>
+                  <li>R</li>
+                  <li>JS</li>
+                  <li>Linux</li>
+                </ul>
+              </div>
+            </article>
+            <article>
+              <div class="column">
+                <h4>Unrealate to Coding Skill</h4>
+                <ul>
+                  <li>Beer Crafting</li>
+                  <li>Import & Export</li>
+                  <li>Real Estate</li>
+                </ul>
+              </div>
+            </article>
+            <article>
+              <div class="">
+                <h4 id="Languages">Languages</h4>
+                <ul>
+                  <li>🇹🇭Thai</li>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-primary progress-bar-striped progress-bar-animated"
+                      role="progressbar"
+                      style="width: 100%;"
+                      aria-valuenow="100"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                  <li>🇺🇸English</li>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-success progress-bar-striped progress-bar-animated"
+                      role="progressbar"
+                      style="width: 75%;"
+                      aria-valuenow="75"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                  <li>🇨🇳Chinese (Not So good Lately</li>
+                  <div class="progress">
+                    <div
+                      class="progress-bar bg-danger progress-bar-striped progress-bar-animated"
+                      role="progressbar"
+                      style="width: 25%;"
+                      aria-valuenow="25"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+        <!-- Education -->
+        <div class="col p-5">
+          <h3 id="Education">Education</h3>
+          <article>
+            <div class="school">
+              <span>2 years</span> <strong>Mahidol University</strong>
+            </div>
+            <div class="descrition">
+              Bechelor Degree of Actuarial Science
+            </div>
+          </article>
+          <article>
+            <div class="school">
+              <span>2 years</span>
+              <strong>Curtin University</strong>
+            </div>
+            <div>
+              Bechelor Degree of Actuarial Science
+            </div>
+          </article>
+        </div>
+        <!-- Experience -->
+        <div class="col p-5">
+          <h3 id="Experience">Experience</h3>
+          <article>
+            <div class="job-title">
+              <span>Some Years</span> <strong>Some Company</strong><br />
+              <strong>Position:</strong> General เบ้
+            </div>
+            <div>
+              <p><strong>Resposibility:</strong> None</p>
+              <ul class="job-description">
+                <li>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea,
+                  tenetur eius nostrum vitae neque repellendus deleniti modi
+                  molestiae et aperiam atque, pariatur ducimus eaque explicabo
+                  eligendi eos dolores! Commodi, ipsa./li>
+                </li>
+                <li>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                  excepturi deserunt quas consectetur dicta, quis tempore
+                  necessitatibus ab eaque culpa fugit voluptatibus quam odio
+                  quaerat molestiae eveniet reprehenderit? Quisquam, commodi.
+                </li>
+                <li>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                  vitae dolorem explicabo magni incidunt architecto deserunt ad,
+                  ducimus tempora aperiam nostrum, praesentium voluptas?
+                  Provident ad, neque vero dolor ducimus aliquid.
+                </li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="text-black bg-light fixed-bottom">
+      <div class="">
+        <a class="text-dark" href="#">Back to The Top</a>
+        <button value="on" id="comment">Experiment</button>
+        <div class="text-center">
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-toggle="modal"
+            data-target="#exampleModal"
+            data-whatever="@mdo"
+          >
+            Message Me here!
+          </button>
+
+          <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">
+                    Comment
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="form-group">
+                      <label
+                        for="recipient-name"
+                        class="col-form-label float-left"
+                        >Recipient:</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="recipient-name"
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label
+                        for="message-text"
+                        class="col-form-label float-left"
+                        >Message:</label
+                      >
+                      <textarea
+                        class="form-control"
+                        id="message-text"
+                      ></textarea>
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                  <button type="button" class="btn btn-primary">
+                    Send message
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-right text-dark pr-3">
+        <p>
+          &copy; Kanin
+        </p>
+        <p>
+          <a href="https://www.facebook.com/"
+            ><i class="fab fa-facebook text-dark"></i
+          ></a>
+          <a href="https://twitter.com/"
+            ><i class="fab fa-twitter text-dark"></i
+          ></a>
+          <a href="https://github.com/kaninsexy/"
+            ><i class="fab fa-github-alt text-dark"></i
+          ></a>
+          <a href="https://www.instagram.com/"
+            ><i class="fab fa-instagram text-dark"></i
+          ></a>
+          <a href="https://www.linkedin.com/"
+            ><i class="fab fa-linkedin-in text-dark"></i
+          ></a>
+        </p>
+      </div>
+    </footer>
+  </body>
+  <script src="app.js"></script>
+</html>
